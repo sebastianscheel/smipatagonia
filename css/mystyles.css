@@ -1,0 +1,39 @@
+/*            CSS RESET                      */
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-height: 100vh;
+}
+/*            Nav Fondo                        */
+
+.nav_fondo {
+  background-image: linear-gradient(to left, #000000e1 0%, black 100%);
+}
+
+.header-back {
+  background-image: url(../assets/img/fondo_header2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+/*            SECTION                       */
+.section-cajatext {
+  font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
+  color: #ffffff;
+  margin-top: 2rem;
+  font-size: 18px;
+  font-weight: 400;
+  background: #20376d;
+  overflow: hidden;
+  padding: 20px;
+  border-radius: 35px 0px 35px 0px;
+  -moz-border-radius: 35px 0px 35px 0px;
+  -webkit-border-radius: 35px 0px 35px 0px;
+  border: 2px solid #5878ca;
+}
+.tamao{
+  width: 2rem;
+  height: 2rem;
+}
