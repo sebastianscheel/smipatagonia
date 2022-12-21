@@ -69,12 +69,20 @@ svg circle {
   background-image: url(../assets/img/fondo_header2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
+
 }
 .hader_div--h1{
-  font-size: 3.5rem;
-  font-family: Arial, Helvetica, sans-serif;
-  color: #003cff;
+  color: rgb(0, 0, 0); 
+  text-align: center; 
+  margin: 0.8rem;
+	text-transform: uppercase;
+	letter-spacing: 0.4rem;
+	display: inline-block;
+	border: 0.5rem double rgba(0, 0, 0, 0.459);
+	border-width: 0.3rem 0;
+	padding: 0;
 }
+
 /*            SECTION                       */
 .section-cajatext {
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
