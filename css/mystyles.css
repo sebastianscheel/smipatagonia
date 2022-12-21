@@ -12,12 +12,66 @@ body {
 .nav_fondo {
   background-image: linear-gradient(to left, #000000e1 0%, black 100%);
 }
+.redes_nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.icon {
+  position: relative;
+  width: 2rem;
+  height: 2rem;
+  margin: 1rem;
+  border-radius: 50%;
+  transition: all 0.8s;
+  cursor: pointer;
+}
+
+.icon:hover {
+  background-color: #e60073;
+  box-shadow: 0 0 20px #e60073;
+}
+
+.icon:hover:nth-child(2) {
+  background-color: #1877f2;
+  box-shadow: 0 0 20px #1877f2;
+}
+
+.icon:hover:nth-child(3) {
+  background-color: #25d366;
+  box-shadow: 0 0 20px #25d366;
+}
+
+.icon:hover:nth-child(4) {
+  background-color: #1da1f2;
+  box-shadow: 0 0 20px #1da1f2;
+}
+
+.icon i {
+  color: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.7rem;
+}
+
+svg circle {
+  stroke-dasharray: 150;
+  transition: all 0.8s ease-in-out;
+}
+
+.icon:hover circle {
+  stroke-dasharray: 220;
+}
 
 .header-back {
   background-image: url(../assets/img/fondo_header2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
 }
+
 /*            SECTION                       */
 .section-cajatext {
   font-family: Century Gothic, CenturyGothic, AppleGothic, sans-serif;
@@ -33,7 +87,15 @@ body {
   -webkit-border-radius: 35px 0px 35px 0px;
   border: 2px solid #5878ca;
 }
-.tamao{
+.tamao {
   width: 2rem;
   height: 2rem;
+}
+/*               Media Query          */
+
+/*Ocultar redes sociales en Mobile*/
+@media screen and (max-width: 550px) {
+  .ocultar-div {
+    display: none;
+  }
 }
