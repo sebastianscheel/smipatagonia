@@ -105,7 +105,7 @@ svg circle {
 /*               Media Query          */
 
 /*Ocultar redes sociales en Mobile*/
-@media screen and (max-width: 550px) {
+@media screen and (max-width: 760px) {
   .ocultar-div {
     display: none;
     
@@ -117,3 +117,10 @@ svg circle {
   flex-direction: column;
   }
 }
+@media screen and (max-width: 370px) {
+  .hader_div--h1 {
+    display: none;
+    
+  }
+  }
+  
