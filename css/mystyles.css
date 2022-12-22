@@ -69,22 +69,17 @@ svg circle {
   background-image: url(../assets/img/fondo_header2.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-
 }
-.hader_div--h1{
-  text-align: center; 
-  margin: 0.8rem;
-	text-transform: uppercase;
-	letter-spacing: 0.1rem;
-	display: inline-block;
-	border: 0.5rem double rgba(0, 0, 0, 0.459);
-	border-width: 0.2rem 0;
-	padding: 0; 
-  font-weight:bold; 
-  font-size: 2.3rem; 
-  color: #000000f1; 
-  text-shadow: -1px 0 #414D68, 0 1px #414D68, 1px 0 #414D68, 0 -1px #414D68, -2px 2px 0 #414D68, 2px 2px 0 #414D68, 1px 1px #414D68, 2px 2px #414D68, 3px 3px #414D68, 4px 4px #414D68, 5px 5px #414D68; 6px 6px #414D68, 7px 7px #414D68, 8px 8px #414D68, 9px 9px #414D68;
-
+.hader_div--h1 {
+  font-family: "Arial Rounded MT Bold", "Helvetica Rounded", Arial, sans-serif;
+  text-transform: uppercase;
+  font-size: 3rem;
+  color: #353535;
+  text-shadow: 0 8px 9px #c4b59d, 0px -2px 1px #fff;
+  font-weight: bold;
+  letter-spacing: -4px;
+  border-radius: 20px;
+  padding-bottom: 1.5rem;
 }
 
 /*            SECTION                       */
@@ -112,19 +107,16 @@ svg circle {
 @media screen and (max-width: 760px) {
   .ocultar-div {
     display: none;
-    
   }
 }
 
 @media screen and (max-width: 760px) {
-.as { 
-  flex-direction: column;
+  .as {
+    flex-direction: column;
   }
 }
 @media screen and (max-width: 370px) {
   .hader_div--h1 {
     display: none;
-    
   }
-  }
-  
+}
