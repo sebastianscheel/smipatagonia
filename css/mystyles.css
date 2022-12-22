@@ -11,6 +11,7 @@ body {
 
 .nav_fondo {
   background-image: linear-gradient(to left, #000000e1 0%, black 100%);
+  padding:1px 0 0 0;
 }
 .redes_nav {
   display: flex;
@@ -63,6 +64,13 @@ svg circle {
 
 .icon:hover circle {
   stroke-dasharray: 220;
+}
+.as{
+  padding: 0;
+}
+.ocultar-div {
+  margin: 0;
+  padding: 0;
 }
 /*     HEADER                  */
 .header-back {
