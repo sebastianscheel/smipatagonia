@@ -109,6 +109,18 @@ svg circle {
   width: 2rem;
   height: 2rem;
 }
+/* CARDS*/
+.card{
+  border: none;
+  transition: all 500ms cubic-bezier(0.19, 1, 0.22, 1);
+  overflow:hidden;
+  border-radius:20px;
+  min-height:450px;
+  box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
+}
+ 
+/*FIN CARD*/
+
 /*               Media Query          */
 
 /*Ocultar redes sociales en Mobile*/
