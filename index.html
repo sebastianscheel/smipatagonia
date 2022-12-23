@@ -7,6 +7,8 @@
         <meta name="author" content="" />
         <title>Servicios de Mantenimiento Integral</title>
         <link rel="icon" type="image/x-icon" href="assets/favicon.png" />
+        <!-- Libreria JS-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
         <!-- AOS -->
         <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
         <!-- CSS Bootstrap -->
@@ -16,6 +18,8 @@
         <link href="css/mystyles.css" rel="stylesheet" />
     </head>
     <body id="page-top">
+      <!-- BackToTop Button -->
+        <a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
         <!-- Nav -->
         <nav class="navbar navbar-expand-lg navbar-dark fixed-top nav_back nav_fondo" id="mainNav">
             <!-- Contenedor General NAV -->
@@ -310,5 +314,20 @@
         // type affect to header
         typeEffect(h1, speed);
         </script>
-    </body>
+        <script type='text/javascript'>
+          $(document).ready(function(){ 
+              $(window).scroll(function(){ 
+                  if ($(this).scrollTop() > 100) { 
+                      $('#scroll').fadeIn(); 
+                  } else { 
+                      $('#scroll').fadeOut(); 
+                  } 
+              }); 
+              $('#scroll').click(function(){ 
+                  $("html, body").animate({ scrollTop: 0 }, 600); 
+                  return false; 
+              }); 
+          });
+          </script>
+</body>
 </html>
