@@ -118,7 +118,22 @@ svg circle {
   min-height:450px;
   box-shadow: 0 0 12px 0 rgba(0,0,0,0.2);
 }
+.card:hover{
+  transform: scale(1.05);
+  box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+.card-body{
+  text-align: center;
  
+} 
+.card-title{
+  color:#000000;
+  font-weight: 800;
+  font-size: 2.3rem;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  background-color: #ffee00d3;
+} 
 /*FIN CARD*/
 
 /*               Media Query          */
