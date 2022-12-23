@@ -88,26 +88,27 @@
             <div class="container px-4 section-cajatext">
                 <div class="row gx-4 justify-content-center">
                     <div class="col-lg-8">
-                        <p class="">
-                            Somos una empresa joven en la Patagonia, creada desde la unión de
+                    <h2 style="text-align: center;">Nosotros</h2>
+                      <p class="text-js">
+                            <p> Somos una empresa joven en la Patagonia, creada desde la unión de
                             dos profesionales multidisciplinarios con más 20 años de experiencia
                             en el rubro y con una clara vocación innovadora, buscando dar nuevas
                             aplicaciones a tecnologías.
-                          </p>
-                          <p class="">
-                            Nos dedicamos al desarrollo y ejecución
+                            </p>
+
+                            <p> Nos dedicamos al desarrollo y ejecución
                             de obras civiles y electromecánicas, mantenimiento integral de auto
                             elevadores, grúas, maquinas viales, grupos electrógenos,
                             compresores, máquinas e instalaciones (mecánicas - hidráulicas -
                             eléctricas - neumáticas), mantenimiento edilicio y de instalaciones
                             industriales, como así también al desarrollo de proyectos llave en
                             mano.
-                          </p>
-                          <p class="">
-                            Somos distribuidores oficiales de grupos electrógenos
+                            </p>
+                            <p> Somo distribuidores oficiales de grupos electrógenos
                             NAFTEROS de la marca “FENK” y grupos electrógenos a GAS de la marca
                             “KOHLER”.
-                          </p>
+                            </p>
+                      </p>
                     </div>
                 </div>
             </div>
@@ -285,5 +286,29 @@
         <!-- Core theme JS-->
         <script src="js/scripts.js"></script>
         <script> AOS.init();</script>
+        <script>function typeEffect(element, speed) {
+          var text = element.innerHTML;
+          element.innerHTML = "";
+          
+          var i = 0;
+          var timer = setInterval(function() {
+            if (i < text.length) {
+              element.append(text.charAt(i));
+              i++;
+            } else {
+              clearInterval(timer);
+            }
+          }, speed);
+        }
+        
+        
+        // application
+        var speed = 95;
+        var h1 = document.querySelector('h1');
+        var delay = h1.innerHTML.length * speed + speed;
+        
+        // type affect to header
+        typeEffect(h1, speed);
+        </script>
     </body>
 </html>
