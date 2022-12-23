@@ -143,7 +143,9 @@ svg circle {
   justify-content: space-around;
   padding-top: 2rem;
 }
-
+.div-form{
+  margin-bottom: 2.5rem;
+}
 .dato-contacto{
   align-self: flex-start;
   align-content: flex-start;
