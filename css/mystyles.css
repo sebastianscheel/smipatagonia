@@ -136,6 +136,33 @@ svg circle {
 } 
 /*FIN CARD*/
 
+.form-contact {
+  justify-content: space-around;
+  padding-top: 2rem;
+}
+
+.dato-contacto{
+  align-self: flex-start;
+  align-content: flex-start;
+}
+.datos-redes{
+  align-content: flex-start;
+}
+.color-correo {
+  text-decoration: none;
+  color: #000000;
+}
+.list-redes{
+  list-style: none;
+  padding-left: 12%;
+}
+.li-redes {
+  text-decoration: none;
+  padding: .5rem 1rem .5rem 1rem;
+}
+.li-redes a {
+  text-decoration: none;
+ }
 /*               Media Query          */
 
 /*Ocultar redes sociales en Mobile*/
