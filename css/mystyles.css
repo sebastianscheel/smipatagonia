@@ -11,7 +11,7 @@ body {
 
 .nav_fondo {
   background-image: linear-gradient(to left, #000000e1 0%, black 100%);
-  padding:1px 0 0 0;
+  padding:1px 0 1px 0;
 }
 .redes_nav {
   display: flex;
@@ -105,6 +105,9 @@ svg circle {
   -webkit-border-radius: 35px 0px 35px 0px;
   border: 2px solid #5878ca;
 }
+.contenedor-servicios .contenedor-contacto{
+  padding-top: 1rem;
+} 
 .tamao {
   width: 2rem;
   height: 2rem;
